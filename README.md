@@ -80,7 +80,7 @@ docker image.
 # 4
 Now if you want to access the data through the REST API
 **** Checking the CRD through the REST API ****
-	Start the kubectl proxy
+# Start the kubectl proxy
 	and then  curl '127.0.0.1:<PORT>/apis/k8spodcnt.io/v1/monitors'
 **** Checking the CRD through the REST API ****
 
