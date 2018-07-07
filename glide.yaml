@@ -1,0 +1,37 @@
+package: github.com/k8swatchcrd
+import:
+- package: github.com/spf13/cobra
+  version: v0.0.3
+- package: gopkg.in/yaml.v2
+  version: v2.2.1
+- package: k8s.io/api
+  subpackages:
+  - core/v1
+- package: k8s.io/apiextensions-apiserver
+  subpackages:
+  - pkg/apis/apiextensions/v1beta1
+  - pkg/client/clientset/clientset
+- package: k8s.io/apimachinery
+  subpackages:
+  - pkg/api/errors
+  - pkg/apis/meta/v1
+  - pkg/labels
+  - pkg/runtime
+  - pkg/runtime/schema
+  - pkg/runtime/serializer
+  - pkg/types
+  - pkg/util/runtime
+  - pkg/util/wait
+  - pkg/watch
+- package: k8s.io/client-go
+  version: master
+  subpackages:
+  - discovery
+  - discovery/fake
+  - kubernetes
+  - rest
+  - testing
+  - tools/cache
+  - tools/clientcmd
+  - util/flowcontrol
+  - util/workqueue
