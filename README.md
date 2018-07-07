@@ -45,7 +45,7 @@ The yaml file creates the following:
 	to be monitored.
 5. The Pod container image is pulled from my docker hub repo.
 
-	kubectl apply -f k8swatchcrd.yaml
+# kubectl apply -f k8swatchcrd.yaml
 
 	# kubectl get pods
 	NAME          READY     STATUS    RESTARTS   AGE
@@ -57,7 +57,7 @@ docker image.
 
 # 3
 **** Now check the CRD with the updates of the POD in cluster ****
-	# kubectl get monitor podcount -o yaml
+# kubectl get monitor podcount -o yaml
 	apiVersion: k8spodcnt.io/v1
 	kind: Monitor
 	metadata:
