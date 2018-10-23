@@ -1,7 +1,6 @@
 # CREDITS: 
 1. Kubernetes community and kubernetes github page of client-go, apiextensions
-2. Kubecon videos on youtube, https://www.youtube.com/watch?v=yn04ERW0SbI&t=1685s
-3. Sample controller youtube video by rook, for example on codegen.sh
+2. Sample controller youtube video by rook, for example on codegen.sh
 
 # k8swatchcrd
 
