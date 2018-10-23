@@ -131,3 +131,10 @@ following:
 	The Controller_test.go has the END to test
 
 **** UNIT TEST END-to-END TEST****
+
+# 8 Future work
+	1. Make this work in HA mode using leader election algorithm
+	2. Make a CLeaner based on the CRD.
+	3. Add a SLACK notification.
+	4. Created a HTTPS endpoint to listen on some events and run some events.
+	
